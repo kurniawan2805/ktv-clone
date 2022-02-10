@@ -1,0 +1,36 @@
+.App {
+  color: gray;
+  background: #222222;
+  min-height: 100vh;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   justify-content: center;
+  //   font-size: x-large;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00406f;
+  color: white;
+  height: 50px;
+  padding: 0 10px;
+  &__item {
+    // color: gray;
+    font-size: 24px;
+  }
+}
+
+.navbar-2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  height: 32px;
+  &__item {
+    color: #ced4da;
+    text-transform: uppercase;
+    // text-align: center;
+  }
+}

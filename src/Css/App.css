@@ -1,0 +1,29 @@
+.App {
+  color: gray;
+  background: #222222;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00406f;
+  color: white;
+  height: 50px;
+  padding: 0 10px;
+}
+.navbar__item {
+  font-size: 24px;
+}
+
+.navbar-2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+  height: 32px;
+}
+.navbar-2__item {
+  color: #ced4da;
+  text-transform: uppercase;
+}
