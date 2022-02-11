@@ -4,7 +4,7 @@ import "./Sass/App.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Navbar />
       <Navbar2 />
       {/* <div>Hello WOrld</div> */}

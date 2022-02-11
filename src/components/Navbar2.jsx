@@ -16,7 +16,11 @@ const Navbar2 = () => {
   return (
     <div className="navbar-2">
       {navItems.map((item) => {
-        return <div className="navbar-2__item">{item}</div>;
+        return (
+          <div key={item} className="navbar-2__item">
+            {item}
+          </div>
+        );
       })}
     </div>
   );
