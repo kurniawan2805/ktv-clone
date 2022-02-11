@@ -30,19 +30,13 @@
 
 .navbar-2 {
   display: flex;
-  justify-content: space-evenly;
+  // justify-content: space-evenly;
   align-items: center;
   // width: 1000px;
   height: 32px;
-<<<<<<< HEAD
   overflow: auto;
   white-space: nowrap;
   // scroll-snap-type: mandatory;
-=======
-  overflow-x: auto;
-  White-space: nowrap;
-  scroll-snap-type: mandatory;
->>>>>>> 988f5b8b35ebdd66dbe667078a8845a1a6b6a84e
   background-image: linear-gradient(90deg, #005b9e, #0082c6);
   //   display: block;
   &__item {
