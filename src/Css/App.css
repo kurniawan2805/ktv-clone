@@ -23,6 +23,8 @@
   align-items: center;
   width: 1000px;
   height: 32px;
+  overflow: auto;
+  white-space: nowrap;
   scroll-snap-type: mandatory;
   background-image: linear-gradient(90deg, #005b9e, #0082c6);
 }
